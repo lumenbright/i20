@@ -1,0 +1,462 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+.form {
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+}
+
+.form h1 {
+    margin-bottom: 25px;
+    margin-left: 5%;
+}
+
+.form .label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+} 
+
+.form input[type="text"], .form input[type="email"], .form input[type="date"] {
+    display: inline-block;
+    width: 50%;
+    font-size: 20px;
+    padding: 2px 10px;
+    border: 0.5px solid rgb(0, 72, 110);
+    border-radius: 5px;
+}
+
+.form div {
+    margin: 10px 0;
+}
+
+.form .labelbox {
+    display: inline-block;
+    width: 50%;
+    font-size: 22px;
+}
+
+.form .labelbox label {
+    padding-right: 10%;
+}
+
+.form button {
+    display: block;
+    width: 30%;
+    background-color: lightgrey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    margin: auto;
+    transition: all .5s;
+}
+
+.form button:hover {
+    border: 0.5px solid grey;
+}
+
+.block {
+    display: block;
+    margin-left: auto;
+}
+
+/* page edit */
+
+img {
+    width: 100%;
+}
+
+.abs {
+    width: fit-content;
+    position: absolute;
+    font-size: 16px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* background: red; */
+}
+
+.tick {
+    font-size: 28px;
+    align-items: center;
+}
+
+#box1 {
+    width: 13px;
+    height: 13px;
+    left: 759px;
+    top: 60px;
+}
+
+#box2 {
+    width: 126px;
+    height: 25px;
+    left: 682px;
+    top: 221px;
+}
+
+#box3 {
+    width: 100px;
+    height: 25px;
+    left: 235px;
+    top: 329px;
+}
+
+#box4 {
+    width: 252px;
+    height: 25px;
+    left: 398px;
+    top: 329px;
+}
+
+#box5 {
+    width: 15px;
+    height: 15px;
+    left: 805px;
+    top: 341px;
+}
+
+#box6 {
+    width: 15px;
+    height: 15px;
+    left: 865px;
+    top: 341px;
+}
+
+#box7 {
+    width: 532px;
+    height: 25px;
+    left: 268px;
+    top: 378px;
+}
+
+#box8 {
+    width: 49px;
+    height: 25px;
+    left: 831px;
+    top: 378px;
+}
+
+#box9 {
+    width: 150px;
+    height: 25px;
+    left: 92px;
+    top: 427px;
+}
+
+#box10 {
+    width: 115px;
+    height: 25px;
+    left: 376px;
+    top: 427px;
+}
+
+#box11 {
+    width: 100px;
+    height: 25px;
+    left: 569px;
+    top: 427px;
+}
+
+#box12 {
+    width: 100px;
+    height: 25px;
+    left: 781px;
+    top: 427px;
+}
+
+#box13 {
+    width: 50px;
+    height: 25px;
+    left: 180px;
+    top: 478px;
+}
+
+#box14 {
+    width: 140px;
+    height: 25px;
+    left: 305px;
+    top: 478px;
+}
+
+#box15 {
+    width: 362px;
+    height: 25px;
+    left: 519px;
+    top: 478px;
+}
+
+#box16 {
+    width: 140px;
+    height: 25px;
+    left: 189px;
+    top: 527px;
+}
+
+#box17 {
+    width: 150px;
+    height: 25px;
+    left: 433px;
+    top: 527px;
+}
+
+#box18 {
+    width: 139px;
+    height: 25px;
+    left: 742px;
+    top: 527px;
+}
+
+#box19 {
+    width: 540px;
+    height: 25px;
+    left: 341px;
+    top: 576px;
+}
+
+#box20 {
+    width: 100px;
+    height: 25px;
+    left: 92px;
+    top: 627px;
+}
+
+#box21 {
+    width: 300px;
+    height: 25px;
+    left: 242px;
+    top: 627px;
+}
+
+#box22 {
+    width: 298px;
+    height: 25px;
+    left: 583px;
+    top: 627px;
+}
+
+#box23 {
+    width: 300px;
+    height: 25px;
+    left: 369px;
+    top: 678px;
+}
+
+#box24 {
+    width: 174px;
+    height: 25px;
+    left: 707px;
+    top: 678px;
+}
+
+#box25 {
+    width: 337px;
+    height: 25px;
+    left: 218px;
+    top: 712px;
+}
+
+#box26 {
+    width: 228px;
+    height: 25px;
+    left: 653px;
+    top: 712px;
+}
+
+#box27 {
+    width: 15px;
+    height: 15px;
+    left: 526px;
+    top: 757px;
+}
+
+#box28 {
+    width: 56px;
+    height: 25px;
+    left: 92px;
+    top: 779px;
+}
+
+#box29 {
+    width: 84px;
+    height: 25px;
+    left: 330px;
+    top: 779px;
+}
+
+#box30 {
+    width: 85px;
+    height: 25px;
+    left: 498px;
+    top: 779px;
+}
+
+#box31 {
+    width: 149px;
+    height: 25px;
+    left: 597px;
+    top: 779px;
+}
+
+#box32 {
+    width: 103px;
+    height: 25px;
+    left: 773px;
+    top: 779px;
+}
+
+#box33 {
+    width: 15px;
+    height: 15px;
+    left: 629px;
+    top: 841px;
+}
+
+#box34 {
+    width: 56px;
+    height: 25px;
+    left: 92px;
+    top: 863px;
+}
+
+#box35 {
+    height: 25px;
+width: 56px;
+left: 597px;
+top: 863px;
+border-radius: 0px;
+
+}
+
+#box36 {
+    width: 56px;
+    height: 25px;
+    left: 231px;
+    top: 989px;
+}
+
+#box37 {
+    width: 56px;
+    height: 25px;
+    left: 135px;
+    top: 1019px;
+}
+
+#box38 {
+    width: 30px;
+    height: 25px;
+    left: 396px;
+    top: 1019px;
+}
+
+#box39 {
+    width: 30px;
+    height: 25px;
+    left: 199px;
+    top: 1049px;
+}
+
+#box40 {
+    width: 30px;
+    height: 25px;
+    left: 441px;
+    top: 1049px;
+}
+
+#box41 {
+    width: 56px;
+    height: 25px;
+    left: 234px;
+    top: 1079px;
+}
+
+#box42 {
+    width: 56px;
+    height: 25px;
+    left: 171px;
+    top: 1109px;
+}
+
+#box43 {
+    width: 56px;
+    height: 25px;
+    left: 393px;
+    top: 1139px;
+}
+
+#box44 {
+    width: 56px;
+    height: 25px;
+    left: 240px;
+    top: 1169px;
+}
+
+#box45 {
+    width: 30px;
+    height: 25px;
+    left: 311px;
+    top: 1199px;
+}
+
+#box46 {
+    height: 25px;
+width: 30px;
+left: 426px;
+top: 1199px;
+border-radius: 0px;
+
+}
+
+#box47 {
+    width: 250px;
+    height: 25px;
+    left: 581px;
+    top: 1006px;
+}
+
+#box48 {
+    width: 25px;
+    height: 25px;
+    left: 740px;
+    top: 1054px;
+}
+
+#box49 {
+    width: 25px;
+    height: 25px;
+    left: 799px;
+    top: 1054px;
+}
+
+#box50 {
+    height: 25px;
+    width: 25px;
+    left: 744px;
+    top: 1099px;
+}
+
+#box51 {
+    width: 25px;
+    height: 25px;
+    left: 811px;
+    top: 1099px;
+}
+
+#box52 {
+    width: 25px;
+    height: 25px;
+    left: 887px;
+    top: 1159px;
+}
