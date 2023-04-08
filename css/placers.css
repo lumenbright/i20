@@ -1,97 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    width: 1000px;
-    margin: auto;
-}
-
-.form {
-    width: 75%;
-    margin: auto;
-    padding: 20px;
-}
-
-.form h1 {
-    margin-bottom: 25px;
-    margin-left: 5%;
-}
-
-.form .label {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
-    text-align: center;
-    display: inline-block;
-    width: 25%;
-} 
-
-.form input[type="text"], .form input[type="email"], .form input[type="date"] {
-    display: inline-block;
-    width: 50%;
-    font-size: 20px;
-    padding: 2px 10px;
-    border: 0.5px solid rgb(0, 72, 110);
-    border-radius: 5px;
-}
-
-.form div {
-    margin: 10px 0;
-}
-
-.form .labelbox {
-    display: inline-block;
-    width: 50%;
-    font-size: 22px;
-}
-
-.form .labelbox label {
-    padding-right: 10%;
-}
-
-.form button {
-    display: block;
-    width: 30%;
-    background-color: lightgrey;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 20px;
-    border: none;
-    margin: auto;
-    transition: all .5s;
-}
-
-.form button:hover {
-    border: 0.5px solid grey;
-}
-
-.block {
-    display: block;
-    margin-left: auto;
-}
-
-/* page edit */
-
-img {
-    width: 100%;
-}
-
-.abs {
-    width: fit-content;
-    position: absolute;
-    font-size: 16px;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    /* background: red; */
-}
-
-.tick {
-    font-size: 28px;
-    align-items: center;
-}
+/* divs placed into respective places */
 
 #box1 {
     width: 13px;
@@ -332,12 +239,10 @@ img {
 }
 
 #box35 {
+    width: 56px;
     height: 25px;
-width: 56px;
-left: 597px;
-top: 863px;
-border-radius: 0px;
-
+    left: 597px;
+    top: 863px;
 }
 
 #box36 {
@@ -411,12 +316,10 @@ border-radius: 0px;
 }
 
 #box46 {
+    width: 30px;
     height: 25px;
-width: 30px;
-left: 426px;
-top: 1199px;
-border-radius: 0px;
-
+    left: 426px;
+    top: 1199px;
 }
 
 #box47 {
@@ -457,6 +360,55 @@ border-radius: 0px;
 #box52 {
     width: 25px;
     height: 25px;
-    left: 887px;
+    left: 817px;
     top: 1159px;
+}
+
+#box53 {
+    width: 154px;
+    height: 25px;
+    left: 158px;
+    top: 359px;
+}
+
+#box54 {
+    width: 154px;
+    height: 25px;
+    left: 158px;
+    top: 389px;
+}
+
+#box55 {
+    width: 138px;
+    height: 25px;
+    left: 184px;
+    top: 418px;
+}
+
+#box56 {
+    width: 356px;
+    height: 25px;
+    left: 106px;
+    top: 448px;
+}
+
+#box57 {
+    width: 137px;
+    height: 25px;
+    left: 101px;
+    top: 478px;
+}
+
+#box58 {
+    width: 150px;
+    height: 25px;
+    left: 312px;
+    top: 478px;
+}
+
+#box59 {
+    width: 200px;
+    height: 25px;
+    left: 418px;
+    top: 1167px;
 }

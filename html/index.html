@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
-    <link rel="stylesheet" href="../css/page1.css" />
+    <title>i20 form</title>
+
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/classes.css" type="text/css" />
+    <link rel="stylesheet" href="../css/placers.css" type="text/css" />
 </head>
 <body>
 
@@ -45,11 +48,11 @@
         
         <div>
             <label for="apartment" class="label">Address</label>
-            <input type="text" name="apartment" id="apartment" placeholder="No. (1) ..." required style="margin-left: 25%; margin-bottom: 5px;"/>
-            <input type="text" name="street" id="street" placeholder="(50) th Street ..." required style="margin-left: 25%; margin-bottom: 5px;"/>
-            <input type="text" name="township" id="township" placeholder="Botahtaung Township ..." required style="margin-left: 25%; margin-bottom: 5px;"/>
-            <input type="text" name="city" id="city" placeholder="Yangon ..." required style="margin-left: 25%; margin-bottom: 5px;"/>
-            <input type="text" name="state" id="state" placeholder="Yangon ..." required style="margin-left: 25%; margin-bottom: 5px;"/>
+            <input type="text" name="apartment" id="apartment" placeholder="1 ... (Apartment Number)" required style="margin-left: 25%; margin-bottom: 5px;"/>
+            <input type="text" name="street" id="street" placeholder="(50) th Street ... (Street)" required style="margin-left: 25%; margin-bottom: 5px;"/>
+            <input type="text" name="township" id="township" placeholder="Botahtaung Township ... (Township)" required style="margin-left: 25%; margin-bottom: 5px;"/>
+            <input type="text" name="city" id="city" placeholder="Yangon ... (City)" required style="margin-left: 25%; margin-bottom: 5px;"/>
+            <input type="text" name="state" id="state" placeholder="Yangon ... (State)" required style="margin-left: 25%; margin-bottom: 5px;"/>
             <input type="text" name="postcode" id="postcode" placeholder="10010 ..." required style="margin-left: 25%; margin-bottom: 5px;"/>
         </div>
         
@@ -104,7 +107,29 @@
     
         <div>
             <label for="emerphone" class="label">Phone</label>
-            <input type="text" name="emerphone" id="emerphone" required placeholder="09........" />
+            <input type="number" name="emerphone" id="emerphone" required placeholder="09........" />
+        </div>
+
+        <h1>Sponsor Contact</h1>
+
+        <div>
+            <label for="sponame" class="label">Name</label>
+            <input type="text" name="sponame" id="sponame" required placeholder="U Aung ..." />
+        </div>
+
+        <div>
+            <label for="sporelation" class="label">Relationship</label>
+            <input type="text" name="sporelation" id="sporelation" required placeholder="Brother ..." />
+        </div>
+
+        <div>
+            <label for="spoaddr" class="label">Address</label>
+            <input type="text" name="spoaddr" id="spoaddr" required placeholder="Complete address ..." />
+        </div>
+
+        <div>
+            <label for="spophone" class="label">Phone</label>
+            <input type="number" name="spophone" id="spophone" required placeholder="09.........." />
         </div>
 
         <div>
@@ -114,267 +139,13 @@
     </form>
     
     <div class="preview" style="display: none;">
-        <div style="page-break-after: always; position: relative;">
+
+        <div style="page-break-after: always; position: relative;" class="page1">
             <img src="../template/template-1.png" alt="page1" />
-    
-            <div id="box1" class="abs tick">
-                ✓
-            </div>
-        
-        
-            <div id="box2" class="abs">
-                23455245
-            </div>
-        
-        
-            <div id="box3" class="abs">
-                Kyaw
-            </div>
-        
-        
-            <div id="box4" class="abs">
-                Min Thet
-            </div>
-        
-        
-            <div id="box5" class="abs tick">
-                ✓
-            </div>
-        
-        
-            <div id="box6" class="abs tick">
-        
-            </div>
-        
-        
-            <div id="box7" class="abs">
-                No. 781, Maharbandula Road, Lanmadaw, Yangon
-            </div>
-        
-        
-            <div id="box8" class="abs">
-                781
-            </div>
-        
-        
-            <div id="box9" class="abs">
-                Yangon
-            </div>
-        
-        
-            <div id="box10" class="abs">
-                Yangon
-            </div>
-        
-        
-            <div id="box11" class="abs">
-                11131
-            </div>
-        
-        
-            <div id="box12" class="abs">
-                Myanmar
-            </div>
-        
-        
-            <div id="box13" class="abs">
-                +95
-            </div>
-        
-        
-            <div id="box14" class="abs">
-                9400727027
-            </div>
-        
-        
-            <div id="box15" class="abs">
-                minthetkyaw2804@gmail.com
-            </div>
-        
-        
-            <div id="box16" class="abs">
-                11/28/2004
-            </div>
-        
-        
-            <div id="box17" class="abs">
-                Yangon / Myanmar
-            </div>
-        
-        
-            <div id="box18" class="abs">
-                Myanmar
-            </div>
-        
-        
-            <div id="box19" class="abs">
-                No. 781, Maharbandula Road, Lanmadaw, Yangon
-            </div>
-        
-        
-            <div id="box20" class="abs">
-                Yangon
-            </div>
-        
-        
-            <div id="box21" class="abs">
-                Yangon / Myanmar / 11131
-            </div>
-        
-        
-            <div id="box22" class="abs">
-                +959 400 727 027
-            </div>
-        
-        
-            <div id="box23" class="abs">
-                Daw Swe Swe Than
-            </div>
-        
-        
-            <div id="box24" class="abs">
-                Mother
-            </div>
-        
-        
-            <div id="box25" class="abs">
-                sweswethan11101966@gmail.com
-            </div>
-        
-        
-            <div id="box26" class="abs">
-                +959 799 880 533
-            </div>
-        
-        
-            <div id="box27" class="abs tick">
-                ✓
-            </div>
-        
-        
-            <div id="box28" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box29" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box30" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box31" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box32" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box33" class="abs tick">
-                ✓
-            </div>
-        
-        
-            <div id="box34" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box35" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box36" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box37" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box38" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box39" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box40" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box41" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box42" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box43" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box44" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box45" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box46" class="abs">
-                N/A
-            </div>
-        
-        
-            <div id="box47" class="abs">
-                Computer Science
-            </div>
-        
-        
-            <div id="box48" class="abs tick">
-                O
-            </div>
-        
-        
-            <div id="box49" class="abs tick">
-                
-            </div>
-        
-        
-            <div id="box50" class="abs tick">
-                ✓
-            </div>
-        
-        
-            <div id="box51" class="abs tick">
-        
-            </div>
-        
-        
-            <div id="box52" class="abs tick">
-                ✓
-            </div>
+        </div>
+
+        <div style="position: relative;" class="page2">
+            <img src="../template/template-2.png" alt="page2" />
         </div>
     </div>
 

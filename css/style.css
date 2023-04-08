@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+@media print {
+    @page {
+      size: auto;
+      margin: 0;
+    }
+    body {
+      margin: 0;
+    }
+    .footer {
+      display: none;
+    }
+  }
+  
